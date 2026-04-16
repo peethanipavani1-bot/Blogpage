@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            margin: 0;
+        }
+        header {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .post {
+            background: white;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .post:hover {
+            background: #e0e0e0;
+        }
+        .meta {
+            color: gray;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Simple Blog</h1>
+</header>
+
+<div class="container">
+
+    <div class="post">
+        <h2>Post One</h2>
+        <p class="meta">By Vivek | April 2026</p>
+        <p>This is a short summary of the first blog post.</p>
+    </div>
+
+    <div class="post">
+        <h2>Post Two</h2>
+        <p class="meta">By Vivek | April 2026</p>
+        <p>This is a short summary of the second blog post.</p>
+    </div>
+
+    <div class="post">
+        <h2>Post Three</h2>
+        <p class="meta">By Vivek | April 2026</p>
+        <p>This is a short summary of the third blog post.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
+output:
+----------------------------------
+        My Simple Blog (Header)
+
+ [ Post One ]
+ By Vivek | April 2026
+ This is a short summary...
+
+ [ Post Two ]
+ By Vivek | April 2026
+ This is a short summary...
+
+ [ Post Three ]
+ By Vivek | April 2026
+ This is a short summary...
+----------------------------------
